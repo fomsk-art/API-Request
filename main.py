@@ -1,3 +1,6 @@
+# url = https://kinopoiskapiunofficial.tech/api/v2.2/films/301
+# api_key = 83ab7be7-a127-42b1-b2c2-09da98f0da7b
+
 import requests
 
 # Запрашиваем у пользователя URL и API-ключ
