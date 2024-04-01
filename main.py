@@ -23,5 +23,5 @@ if response.status_code == 200:
     print(f"Рейтинг: {data['ratingKinopoisk']}")
     print(f"Год выпуска: {data['year']}")
 else:
-    # Ловим ошибку в случае неудачного запроса
+    # Обрабатываем ошибку в случае неудачного запроса
     print(f"Ошибка: - {response.text}")
